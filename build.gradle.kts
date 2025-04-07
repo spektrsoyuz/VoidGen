@@ -1,3 +1,5 @@
+import net.minecrell.pluginyml.bukkit.BukkitPluginDescription
+
 plugins {
     id("java")
     id("com.gradleup.shadow") version "9.0.0-beta11"
@@ -36,6 +38,7 @@ paper {
     apiVersion = "1.21.5"
     website = "https://spektrsoyuz.com/plugins/VoidGen"
     authors = listOf("SpektrSoyuz")
+    load = BukkitPluginDescription.PluginLoadOrder.STARTUP
     foliaSupported = false
 
     serverDependencies {
