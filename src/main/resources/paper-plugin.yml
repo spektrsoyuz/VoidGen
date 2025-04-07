@@ -1,6 +1,0 @@
-name: VoidGen
-version: '1.0'
-main: com.spektrsoyuz.voidGen.VoidGen
-api-version: '1.21'
-load: STARTUP
-authors: [ SpektrSoyuz ]
