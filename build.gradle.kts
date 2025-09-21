@@ -36,7 +36,7 @@ paper {
     name = "VoidGen"
     main = "com.spektrsoyuz.voidGen.VoidGen"
     apiVersion = "1.21.8"
-    website = "https://spektrsoyuz.com/plugins/VoidGen"
+    website = "https://spektrsoyuz.com/"
     authors = listOf("SpektrSoyuz")
     load = BukkitPluginDescription.PluginLoadOrder.STARTUP
     foliaSupported = false
